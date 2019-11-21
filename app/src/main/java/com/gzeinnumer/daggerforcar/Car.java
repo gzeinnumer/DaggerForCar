@@ -14,13 +14,14 @@ public class Car {
     //todo 1
     private static final String TAG = "MYZEIN";
 
-    @Inject Engine engine;
+    private Engine engine;
     private Wheels wheels;
 
     //Engine dan Wheel harus di inject juga,
     @Inject
-    public Car(Wheels wheels) {
+    public Car(Engine engine, Wheels wheels) {
         Log.d(TAG, "Car: Called");
+        this.engine = engine;
         this.wheels = wheels;
     }
 
