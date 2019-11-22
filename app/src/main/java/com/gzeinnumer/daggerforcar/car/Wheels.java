@@ -1,9 +1,6 @@
-package com.gzeinnumer.daggerforcar.part;
+package com.gzeinnumer.daggerforcar.car;
 
 import android.util.Log;
-
-import com.gzeinnumer.daggerforcar.sub_part.Rims;
-import com.gzeinnumer.daggerforcar.sub_part.Tires;
 
 import javax.inject.Inject;
 

@@ -1,4 +1,4 @@
-package com.gzeinnumer.daggerforcar.sub_part;
+package com.gzeinnumer.daggerforcar.car;
 
 import android.util.Log;
 

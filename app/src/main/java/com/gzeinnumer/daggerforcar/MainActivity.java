@@ -4,6 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.gzeinnumer.daggerforcar.car.Car;
+import com.gzeinnumer.daggerforcar.dagger.CarCompnent;
+
 import javax.inject.Inject;
 
 public class MainActivity extends AppCompatActivity {

@@ -1,11 +1,7 @@
-package com.gzeinnumer.daggerforcar;
+package com.gzeinnumer.daggerforcar.car;
 
 import android.util.Log;
 
-
-import com.gzeinnumer.daggerforcar.part.Engine;
-import com.gzeinnumer.daggerforcar.part.Remote;
-import com.gzeinnumer.daggerforcar.part.Wheels;
 
 import javax.inject.Inject;
 
@@ -33,6 +29,7 @@ public class Car {
     }
 
     public void drive(){
+        engine.start();
         Log.d(TAG, "drive: ");
     }
 }

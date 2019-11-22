@@ -1,8 +1,6 @@
-package com.gzeinnumer.daggerforcar.part;
+package com.gzeinnumer.daggerforcar.car;
 
 import android.util.Log;
-
-import com.gzeinnumer.daggerforcar.Car;
 
 import javax.inject.Inject;
 

@@ -1,10 +1,10 @@
-package com.gzeinnumer.daggerforcar;
+package com.gzeinnumer.daggerforcar.dagger;
 
 import android.util.Log;
 
-import com.gzeinnumer.daggerforcar.part.Wheels;
-import com.gzeinnumer.daggerforcar.sub_part.Rims;
-import com.gzeinnumer.daggerforcar.sub_part.Tires;
+import com.gzeinnumer.daggerforcar.car.Wheels;
+import com.gzeinnumer.daggerforcar.car.Rims;
+import com.gzeinnumer.daggerforcar.car.Tires;
 
 import dagger.Module;
 import dagger.Provides;
